@@ -1,0 +1,50 @@
+:root {
+    --poppins: 'Source Sans Pro', sans-serif;
+}
+#about_reward {
+    padding: 100px 0;
+}
+#about_reward .img_animation {
+    position: relative;
+    z-index: 1;
+}
+#about_reward .img_animation:after {
+    content: '';
+    width: 536px;
+    height: 475px;
+    background: 0 0;
+    position: absolute;
+    bottom: 12px;
+    right: -41px;
+    z-index: -1;
+    border: 15px solid #00000008;
+    /* animation: img01 translate 3s infinite;
+    animation-play-state: running;
+    animation-direction: alternate; */
+}
+#about_reward .about_head05 {
+    color: #007FFF;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#about_reward .about_head02 {
+    color: #132F4C;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+#about_reward .about_story p {
+    font-family: var(--poppins);
+    font-size: 18px;
+}
+.feature {
+    padding-top: 30px;
+}
+.feature h5 {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-top: 20px;
+}
+

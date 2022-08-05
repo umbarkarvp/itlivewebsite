@@ -1,0 +1,78 @@
+:root {
+    --poppins: 'Source Sans Pro', sans-serif;
+}
+#work {
+    padding: 100px 0;
+}
+#work .detail_work h5 {
+    color: #007FFF;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#work .detail_work h2{
+    color: #132F4C;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#work .detail_work p {
+    font-family: var(--poppins);
+    font-size: 18px;
+}
+#work .ioc-crypto {
+    margin-left: 24px;
+  }
+#work .ioc-crypto .item:hover i {
+    background-color: #007FFF;
+    color: #053d57;
+  }
+  #work .ioc-crypto .item {
+    text-align: left;
+    position: relative;
+    padding-bottom: 60px;
+  }
+  #work .ioc-crypto .item::before {
+    border-left-color: #006884;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-left: 2px dashed #006884;
+  }
+  #work .ioc-crypto .item i {
+    background-color: #007FFF;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: -24px;
+  }
+  #work .ioc-crypto .item:last-child:before {
+    content: none;
+  }
+  #work .ioc-crypto .item .crypto-title {
+    color: #132F4C;
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  #work .ioc-crypto .item .crypto-text {
+    color: #6d747c;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }

@@ -1,0 +1,64 @@
+:root {
+    --poppins: 'Source Sans Pro', sans-serif;
+}
+#performance {
+    padding: 100px 0;
+    background: linear-gradient(90deg, #f8fcff 32%, rgb(215 244 249) 100%);
+}
+#performance .per_head05 {
+    color: #007FFF;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#performance .per_head02 {
+    color: #132F4C;
+    font-family: var(--poppins);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#performance .details p {
+    font-family: var(--poppins);
+    font-size: 18px;
+}
+#performance .next-line {
+    padding-top: 50px ;
+}
+#performance .card {
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#performance .card_size {
+    margin: auto;
+    text-align: center;
+    padding: 2rem 1rem !important;
+}
+#performance .card_size h5 {
+    color: #6c757d;
+    font-weight: 400;
+    font-family: var(--poppins);
+    font-size: 19px;
+}
+#performance .btn-readmore {
+    text-align: center;
+    padding-top: 75px;
+}
+#performance .btn-readmore .btn-read {
+    background-color: #007FFF;
+    padding: 14px 38px;
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+#performance .btn-readmore .btn-read i {
+    margin-left: 10px;
+    background-color: #fff;
+    color: #007FFF;
+    width: 25px;
+    line-height: 1.5;
+    height: 25px;
+    border-radius: 20px;
+}

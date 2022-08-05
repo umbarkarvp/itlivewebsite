@@ -1,0 +1,23 @@
+:root {
+    --poppins: 'Source Sans Pro', sans-serif;
+}
+#navbar1 a{
+    text-decoration: none;
+}
+#navbar1 .navbar-text {
+    color: #132F4C;
+    font-family: var(--poppins);
+    font-weight: 400;
+}
+#navbar1 .pod_btn {
+    background-color: #007FFF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px 12px;
+    line-height: 1.5;
+    font-family: var(--poppins);
+    font-weight: 400;
+}
+#navbar1 .pod_btn:focus{
+    display: none;
+}

@@ -1,0 +1,46 @@
+:root {
+    --poppins: 'Source Sans Pro', sans-serif;
+}
+#footer_part {
+    background: linear-gradient(90deg, #589ccf 32%, #226fc3 100%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 0 0 0;
+}
+#footer_part img {
+    padding-top: 30px;
+}
+#footer_part form {
+padding-left: 60px;
+}
+#footer_part h5 {
+    padding-bottom: 10px;
+    text-align: left !important;
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 400;
+}
+#footer_part input {
+    padding: 10px 150px 10px 10px;
+    font-family: var(--poppins);
+    border-radius: 5px;
+    line-height: 2;
+    height: 50px;
+    border: none;
+}
+#footer_part .about_footer {
+    color: #fff;
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 400;
+}
+#footer_part p {
+    color: #fff;
+    font-family: var(--poppins);
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+}

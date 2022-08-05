@@ -1,0 +1,19 @@
+#cards_blog {
+    padding: 100px 0;
+}
+#cards_blog .card_text {
+    display: flex;
+}
+#cards_blog .labels{
+    display: flex;
+    margin: auto;
+}
+#cards_blog .labels p{
+    font-size: 14px;
+    padding-right: 10px;
+}
+#cards_blog .label_img img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 40px !important;
+}

@@ -1,0 +1,30 @@
+:root {
+    --poppins: 'Source Sans Pro', sans-serif;
+}
+#head-section {
+    background: url("../../Img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+#head-section .description{
+    padding-top: 200px;
+}
+#head-section .img_src {
+    padding-top: 90px;
+}
+#head-section h2 {
+    font-size: 40px !important;
+    font-family: var(--poppins);
+    font-weight: 600;
+    color: #132F4C;
+    padding-bottom: 10px;
+}
+#head-section span {
+    color: #007FFF;
+}
+#head-section p {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 400;
+}
